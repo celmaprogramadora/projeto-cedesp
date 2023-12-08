@@ -1,0 +1,67 @@
+nav {
+
+    background-color: #191970;
+    display: flex;
+    align-items: center;
+    height: 20vh;
+
+}
+
+
+#logo {
+
+    width: 6.62rem;
+    height: 5.62rem;
+    margin-left: 2%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #4d4df7;
+    padding: 4px 4px;
+
+}
+
+
+#logo img {
+
+    width: inherit;
+    height: 100%;
+
+}
+
+    nav ul {
+
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+            
+    }
+
+    nav ul li {
+
+        
+        padding: 1%;
+                
+    }
+
+    
+    nav ul li a {
+
+        color: white;
+        text-shadow: 2px 2px black;
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: 'Yellowtail', cursive;
+        
+    }
+    
+
+    nav ul li a:hover {
+
+        color: goldenrod;
+        border-bottom: 3px solid #2d2dca;
+        border-radius: 20%;
+
+    }
+
+
+    

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://cdn.aprovadoapp.com.br/blog/midia/artigo4-capa.jpg) center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+}
+
+@media (max-width:500px) {
+    body {
+        flex-direction: column;
+    }
+}
+h1{
+    color:black;
+   
+
+}
+.calculadora {
+    background: rgba(0, 0, 0, 0.397);
+    border-radius: 4%;
+    padding: 2%;
+    /* margin-left: 40% ; */
+
+
+
+}
+
+h2{
+    font-size: 1.5rem;
+    
+}
+
+#resultado{
+        background: #fff;
+        color: black;
+        font-size: 1.5rem;
+        text-align: right;
+        padding: 2%;
+        overflow: hidden;
+        width: 13.8rem;
+        height: 2rem;
+        margin: auto;
+        
+    }
+
+    button{
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin: .2rem;
+        background-color: #fff;
+        color: black;
+        border: none;
+        transition: all .5s;
+
+    }
+
+    button:hover {
+        border: 2px solid rgb(243, 13, 13);
+        background:rgb(243, 13, 13);
+        transform: scale(150%);
+
+
+    }
+
+    

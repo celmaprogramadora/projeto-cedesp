@@ -1,0 +1,44 @@
+header {
+
+    
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.116)), url('../fotos/WhatsApp\ Image\ 2023-11-13\ at\ 21.09.55.jpeg') 50% 20%;
+
+         background-size: cover;
+        text-align: center;
+        height: 60vh;
+        padding: 1.05rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-attachment: fixed;
+     
+}
+
+header h1 {
+    
+        color:#c5b20b;
+
+}
+
+header .botao {
+
+        color:#ffffff;
+        background: #191970;
+        padding: 0.6rem 1.4rem;
+        font-size: .9rem;
+        border-radius: 5px;
+        transform: skew(-12deg);              
+        
+}
+
+.botao_destaque {
+
+        background: #ffffff;
+        color: #000000;
+        padding: 0.6rem 1.4rem;
+        font-size: .9rem;
+        border-radius: 5px;
+        transform: skew(-12deg);
+}

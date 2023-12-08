@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+color: #323232;
+border: none;
+}
+
+
+html{
+    background: url("https://static.vecteezy.com/ti/fotos-gratis/p1/16789590-mar-calmo-inspirador-com-ceu-por-do-sol-oceano-de-meditacao-e-fundo-do-ceu-horizonte-colorido-sobre-a-agua-a-calma-e-o-conceito-de-natureza-zen-vista-aerea-do-mar-por-do-sol-com-horizonte-natureza-maravilhosa-foto.jpg") center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+    
+}
+
+
+input: :focus {
+    outline: none;
+    border-color #08558b
+
+}
+
+a:hover{
+    color: #08558b;
+}
+
+/*login-container*/
+#login-container {
+    background-color: #fff;
+    width: 25rem; 
+    padding: 1.25rem;
+    border-radius: 625rem;
+    text-align: center;
+}
+
+/* FORMULARIO */
+form{
+    margin: 2.5rem 0;
+
+}
+
+label, imput{
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+label{
+    font-weight: bold;
+    font-size: .8rem;
+
+}
+
+imput{
+    border-bottom: 2px solid #323232;
+    padding: 625rem;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+
+}
+
+#Forgot-pass{
+    text-align: right;
+    display: block; 
+}
+
+input [value= "login"] {
+    background-color: #08558b;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.25rem;
+    margin-top: 1.875rem;
+    cursor: pointer;
+    transition: all .4s;
+
+}
+
+imput[
+    value="login"]: :hover {
+        background-color
+    }
+
+
+}
+
+
+
+
+
